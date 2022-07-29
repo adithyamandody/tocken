@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "tocken": {
-      "main": "src/tocken/main.mo",
+    "token": {
+      "main": "src/token/main.mo",
       "type": "motoko"
     },
-    "tocken_assets": {
+    "token_assets": {
       "dependencies": [
-        "tocken"
+        "token"
       ],
       "frontend": {
-        "entrypoint": "src/tocken_assets/src/index.html"
+        "entrypoint": "src/token_assets/src/index.html"
       },
       "source": [
-        "src/tocken_assets/assets",
-        "dist/tocken_assets/"
+        "src/token_assets/assets",
+        "dist/token_assets/"
       ],
       "type": "assets"
     }
